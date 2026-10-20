@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
+
+[[mods]]
+modId="endercleanup"
+version="${file.jarVersion}"
+displayName="EnderCleanup"
+credits=""
+authors=""
+description='''
+A Minecraft mod for environmental cleanup.
+'''
+
+[[dependencies.endercleanup]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.endercleanup]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
